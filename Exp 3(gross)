@@ -1,0 +1,11 @@
+print("*** Gross Salary Calculator ***") 
+BS = int(input("Enter your Basic Salary: ")) 
+DA = 0.7*BS
+TA = 0.3*BS
+HRA = 0.1*BS
+GS = BS+DA+TA+HRA
+print("Dearness Allowance(DA) is: ", DA) 
+print("Travel Allowance(TA) is: ", TA) 
+print("House Rent Allowance(HRA) is: ", HRA) 
+print("Gross Salary(GS) is: ", GS) 
+O
