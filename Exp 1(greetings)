@@ -1,0 +1,8 @@
+def personalized_greeting(name,occasion=None): 
+ greeting=f"Hello, {name}! "
+ if occasion : 
+ greeting += f"happy {occasion}!"
+ return greeting
+name = input("Enter your name:") 
+occasion = input("Enter the occasion(optional):") 
+print(personalized_greeting(name,occasion)) 
